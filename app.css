@@ -23,7 +23,7 @@ p {
 
 
 .container {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -75,7 +75,7 @@ header .navbar {
 }
 
 .header-links li {
-    margin: 6px 12px;
+    margin: 6px 0 6px 24px;
 }
 
 .header-links li a {
@@ -89,10 +89,6 @@ header .navbar {
     gap: 28px;
     margin-top: 30px;
     margin: 52px 0;
-}
-
-main {
-    background-color: cadetblue;
 }
 
 footer {
@@ -156,4 +152,39 @@ img {
     font-size: 24px;
     display: flex;
     justify-content: flex-end;
+    padding-right: 8px;
+}
+
+.call-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 80px 0;
+}
+
+.call-box .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+
+
+.call-title {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.call-subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.call-btn {
+    background-color: inherit;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 28px;
+    font-size: 18px;
 }
